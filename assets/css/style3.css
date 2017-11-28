@@ -1,0 +1,11 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.parallax-window{
+  min-height: 600px;
+  background: transparent;
+}
+.window-wrapper{
+  background: #fff;
+}
