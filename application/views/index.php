@@ -1,7 +1,7 @@
 <?php
-  foreach ($records as $row) {
+  /*foreach ($records as $row) {
     echo $row->memberID."  ".$row->account."   ".$row->name;
-  }
+  }*/
 
  ?>
 <!DOCTYPE html>
@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title><?php echo $title; ?></title>
+    <title>frontpage</title>
 
     <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.min.js'); ?>"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -35,16 +35,12 @@
     </div>
     <div class="window-wrapper">
       <div class="container">
-        <h2><?php echo $heading; ?></h2>
-        <p><?php echo $message; ?></p>
-        <ul>
-          <?php foreach ($todo_list as $row) {?>
-          <li><?php echo $row; ?></li>
-        <?php } ?>
-        </ul>
+        <h2>456</h2>
+        <p>123</p>
+
       </div>
     </div>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="4.jpg"></div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo base_url('assets/images/3.jpg'); ?>"></div>
     <div class="window-wrapperr">
       <div class="container">
         <div class="row">
